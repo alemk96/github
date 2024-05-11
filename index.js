@@ -13,12 +13,14 @@ var users = await octokit.request('GET /users', {
     }
 })
 
+console.log(users.data[0])
 
-var test_repo = users.data[0].repos_url
+userName = "alemk96"
 
-var dav = await octokit.request('GET /users/diogoeichert', {
+var userRepo = await octokit.request(`GET /users/${usersName}`, {
     headers: {
     'X-GitHub-Api-Version': '2022-11-28'
     }
 })
+
 
