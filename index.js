@@ -15,9 +15,9 @@ var users = await octokit.request('GET /users', {
 
 console.log(users.data[0])
 
-userName = "alemk96"
+var userName = "alemk96"
 
-var userRepo = await octokit.request(`GET /users/${usersName}`, {
+var userRepo = await octokit.request(`GET /users/${userName}`, {
     headers: {
     'X-GitHub-Api-Version': '2022-11-28'
     }
