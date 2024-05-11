@@ -11,5 +11,5 @@ e seguire la procedura
 
 per installare ocktokit:
 ```
-npm install octokit
+npm install
 ```
