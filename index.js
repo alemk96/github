@@ -24,3 +24,4 @@ var userRepo = await octokit.request(`GET /users/${userName}`, {
 })
 
 
+console.log(userRepo.data)
