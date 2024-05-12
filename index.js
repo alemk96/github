@@ -20,5 +20,12 @@ var repo = await octokit.request('GET /users/{username}/repos', {
     headers: {
       'X-GitHub-Api-Version': '2022-11-28'
     }
+<<<<<<< HEAD
   })
 console.log(repo.data[0]);
+=======
+})
+
+
+console.log(userRepo.data)
+>>>>>>> 08b1cc6bbdf52c1d0601312df1f1d44648364c2a
