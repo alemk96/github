@@ -1,15 +1,14 @@
 {
   "name": "github",
   "version": "1.0.0",
-  "description": "",
+  "description": "Analisi di gruppo sulle API di GitHub",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alessio Medda, Paolo Sangallo, Davide Archidi",
+  "license": "MIT",
   "dependencies": {
     "octokit": "^3.2.1"
   }
