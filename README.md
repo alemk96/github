@@ -3,8 +3,9 @@
 ### Componenti del gruppo
 
 - Alessio Medda - [alessio.medda@studenti.unimi.it](mailto:alessio.medda@studenti.unimi.it)
-- Paolo Sangalli - [paolo.sangalli1@studenti.unimi.it](mailto:paolo.sangalli1@studenti.unimi.it)
 - Davide Archidi - [davide.archidi@studenti.unimi.it](mailto:davide.archidi@studenti.unimi.it)
+- Paolo Sangalli - [paolo.sangalli1@studenti.unimi.it](mailto:paolo.sangalli1@studenti.unimi.it)
+
 
 Questo è un esempio di codice JavaScript che utilizza l'API di GitHub per effettuare diverse richieste, utilizzando l'Octokit library per semplificare l'interazione con l'API.
 
