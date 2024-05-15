@@ -1,6 +1,6 @@
 
 const TestKey = {
-    git_key:"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"
+    git_key:"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"
 }
 
 export default TestKey;
