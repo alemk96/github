@@ -1,7 +1,3 @@
-Ecco un esempio di README per il codice fornito:
-
----
-
 # Analisi GitHub API per Social Media Mining
 
 ### Componenti del gruppo
@@ -29,18 +25,18 @@ Questo è un esempio di codice JavaScript che utilizza l'API di GitHub per effet
 
 ## Utilizzo
 
-1. Modifica il file `TestKey.js` inserendo la tua chiave di autenticazione generata.
-
-2. Esegui il codice utilizzando Node.js con il comando:
+1. Esegui il codice utilizzando Node.js con il comando:
 
     ```bash
-    node index.js
+    npm start
     ```
 
-3. Il codice effettuerà diverse richieste all'API di GitHub e stamperà i risultati nella console.
+2. Il codice effettuerà diverse richieste all'API di GitHub e stamperà i risultati nella console.
 
 ## Struttura del codice
 
 - `TestKey.js`: Contiene la chiave di autenticazione per l'API di GitHub. Si prega di NON condividere questa chiave con altri.
 
 - `index.js`: Codice JavaScript principale che effettua richieste all'API di GitHub utilizzando l'Octokit library.
+
+- `package.json`: Contiene le configurazioni per l'app node.
